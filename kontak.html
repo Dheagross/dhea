@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kami</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f8f2;    }
+    header {
+      background-color: #5f28a7;
+      padding: 20px;
+      color: white;
+      text-align: center;    }
+    nav {
+      background-color: #020702;
+      padding: 10px;
+      text-align: center;   }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;  }
+    nav a:hover {
+      text-decoration: underline;   }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);    }
+    h2 {
+      color: #030303;
+      margin-bottom: 20px;
+      text-align: center;    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;    }
+    button {
+      background-color: #070807;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;    }
+    button:hover {
+      background-color: #1e6b33;    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hubungi Kami</h1>
+    <p>Silakan kirim pesan atau pertanyaan Anda di bawah ini</p>
+  </header>
+  <nav>
+    <a href="home.html">Beranda</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+  <div class="container">
+    <h2>Formulir Kontak</h2>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+</body>
+</html>
